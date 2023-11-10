@@ -46,6 +46,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![Index](https://media.discordapp.net/attachments/1172434504896491530/1172435189364965397/image.png?ex=65604e5b&is=654dd95b&hm=7a238f0b28b40e0a75cceec541e7248ceafad9547ccdbdaea229411cc37c9388&=&width=1164&height=655)
+![Blacklisteados](https://media.discordapp.net/attachments/1172434504896491530/1172435189943771197/image.png?ex=65604e5c&is=654dd95c&hm=a923918fc8c869e2d03d59df610528f54fc229a67762d3b86a3d66067fcdc194&=&width=1164&height=655)
+
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.

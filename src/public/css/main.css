@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(228, 228, 238);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.custom-card {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    background-color: #fffffe;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.jumbotron { 
+    text-align: center;
+    color: black;
+    background-color: rgb(249, 209, 249), 255, 254
+}

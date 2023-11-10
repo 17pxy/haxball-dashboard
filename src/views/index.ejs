@@ -1,0 +1,267 @@
+<div class="jumbotron text-center">
+  <%- include('layouts/main') %>
+  <h1 class="display-4">¡Bienvenido a Comunidad Haxball!</h1>
+  <p class="lead">
+    Descubre la plataforma definitiva de Haxball, donde la emoción y la
+    comunidad convergen. Sumérgete en un universo de estadísticas en tiempo
+    real, desafía tus límites con rankings globales y ejerce control total sobre
+    la comunidad, desde la gestión de blacklisteados hasta la conexión con
+    jugadores en línea.
+  </p>
+  <p>¡Explora el futuro de Haxball en línea!</p>
+  <hr class="my-4" />
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card custom-card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa fa-user-circle" aria-hidden="true"></i> Jugadores
+            Registrados
+          </h5>
+          <h4 class="card-text"><%= registered %> jugadores</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card custom-card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa fa-gamepad" aria-hidden="true"></i> Total Partidos
+          </h5>
+          <h4 class="card-text"><%= games %> partidos</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card custom-card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+            Jugadores Blacklisteados
+          </h5>
+          <h4 class="card-text"><%= blacklisted %> usuarios</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card custom-card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <i class="fa fa-server" aria-hidden="true"></i>
+            Jugadores Online
+          </h5>
+          <h4 class="card-text"><%= online %> jugadores</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div
+    class="alert alert-primary d-flex justify-content-between align-items-center"
+    role="alert"
+  >
+    <p class="m-0">
+      Descubre nuestra Dashboard de Haxball, una aplicación web diseñada por
+      <strong>17pxy</strong> y lanzada como código abierto para revolucionar los
+      hosts de Haxball. Hemos creado esta plataforma con el objetivo de brindar
+      a la comunidad una herramienta versátil y personalizable que va más allá
+      de los límites convencionales del juego.
+    </p>
+    <a href="https://github.com/17pxy" class="btn btn-light" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</div>
+
+<h3 class="text-center m-4"><strong>Resultados Temporada 1</strong></h3>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Goles</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+            <th scope="col">Goles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Asistencias</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+            <th scope="col">Asistencias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Partidos</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<h3 class="text-center m-4"><strong>Resultados Temporada 2</strong></h3>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Goles</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+            <th scope="col">Goles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Asistencias</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+            <th scope="col">Asistencias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Juan Pepe</td>
+            <td>30</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h1 class="text-center text-black">Top Partidos</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr class="table-dark">
+            <th scope="col">Usuario</th>
+            <th scope="col">Partidos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Pepito</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer class="mt-5">
+  <div class="container">
+    <div
+      class="credit-circles d-flex justify-content-center align-items-center mb-4"
+    ></div>
+  </div>
+</footer>

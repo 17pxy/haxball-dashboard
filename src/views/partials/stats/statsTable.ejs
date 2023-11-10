@@ -1,0 +1,78 @@
+<% if (stats.length > 0) { %>
+<div class="container mt-4">
+  <h1 class="text-center text-black">Estadisticas</h1>
+  <table class="table table-sm table-striped table-hover mx-auto">
+    <thead>
+      <tr class="table-dark">
+        <th scope="col">Nombre</th>
+        <th scope="col">Goles</th>
+        <th scope="col">Partidos</th>
+        <th scope="col">Ganados</th>
+        <th scope="col">Perdidos</th>
+        <th scope="col">Asistencias</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% for (var i = 0; i < stats.length; i++) { %>
+      <tr>
+        <td><%= stats[i].name %></td>
+        <td><%= stats[i].goles %></td>
+        <td><%= stats[i].partidos %></td>
+        <td><%= stats[i].ganados %></td>
+        <td><%= stats[i].perdidos %></td>
+        <td><%= stats[i].asistencias %></td>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+
+  <div class="row">
+    <% if (pages) { %>
+    <nav class="mx-auto">
+      <ul class="pagination">
+        <% if (current == 1) { %>
+        <li class="page-item disabled">
+          <a href="#" class="page-link">First Page</a>
+        </li>
+        <% } else { %>
+        <li class="page-item">
+          <a href="/stats/1" class="page-link">First Page</a>
+        </li>
+        <% } %> <% var start = (current > 5 ? current - 4 : 1) %> <% if (start
+        !== 1) { %>
+        <li class="page-item">
+          <a href="#" class="page-link">...</a>
+        </li>
+        <% } %> <% for (var j = start; j <= Math.min(start + 8, pages); j++) {
+        %> <% if (j == current) { %>
+        <li class="page-item active">
+          <a class="page-link" href="<%= j %>"><%= j %></a>
+        </li>
+        <% } else { %>
+        <li class="page-item">
+          <a href="/stats/<%= j %>" class="page-link"><%= j %></a>
+        </li>
+        <% } %> <% } %> <% if (start + 8 < pages) { %>
+        <li class="page-item">
+          <a href="#" class="page-link">...</a>
+        </li>
+        <% } %> <% if (current == pages) { %>
+        <li class="page-item disabled">
+          <a href="#" class="page-link">Last page</a>
+        </li>
+        <% } else { %>
+        <li class="page-item">
+          <a href="/stats/<%= pages %>" class="page-link">Last Page</a>
+        </li>
+        <% } %>
+      </ul>
+    </nav>
+    <% } %>
+  </div>
+</div>
+
+<% } else { %>
+<h1 class="text-center mt-4">
+  <strong>No se encontraron estadisticas!</strong>
+</h1>
+<% } %>

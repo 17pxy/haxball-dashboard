@@ -48,6 +48,8 @@
 
 ![Index](https://media.discordapp.net/attachments/1172434504896491530/1172435189364965397/image.png?ex=65604e5b&is=654dd95b&hm=7a238f0b28b40e0a75cceec541e7248ceafad9547ccdbdaea229411cc37c9388&=&width=1164&height=655)
 ![Blacklisteados](https://media.discordapp.net/attachments/1172434504896491530/1172435189943771197/image.png?ex=65604e5c&is=654dd95c&hm=a923918fc8c869e2d03d59df610528f54fc229a67762d3b86a3d66067fcdc194&=&width=1164&height=655)
+![Rankings](https://media.discordapp.net/attachments/1172434504896491530/1172436588274405406/image.png?ex=65604fa9&is=654ddaa9&hm=f880550156a1c03f70b9aa007140b2c63ab4cca875852795ef18e8a8cc34d205&=&width=1164&height=655)
+![Stats](https://media.discordapp.net/attachments/1172434504896491530/1172436625104588871/image.png?ex=65604fb2&is=654ddab2&hm=88f9aabae74e39422a64485c8411c07d6f1ee18e992bfe7246d934b8794aa650&=&width=1164&height=655)
 
 ### Built With
 
